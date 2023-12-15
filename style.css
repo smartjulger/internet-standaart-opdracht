@@ -1,0 +1,81 @@
+h1{
+    text-align:center;
+    color:darkorange;
+}
+.sub1{text-align: center;
+    border: 2px inset orangered;
+    margin:2px;
+    border-radius: 2em;
+}
+.p1{
+    text-align: center;
+    padding: 3px;
+    border-style: inset;
+    border-color: orangered;
+    background-color:orangered;
+    padding: 2em;
+    border-radius: 2em;
+}
+adress{
+    text-align: left;
+    font-style: normal;
+    border-style: inset;
+    border: 3px inset orangered;
+}
+.sub2{
+    text-align: center;
+    border-style: inset;
+    border-color: orangered;
+    background: url(pics/rugby\ nederland.png);
+    background-size: 2em;
+}
+.p2 {
+    text-align: center;
+    border-style: inset;
+    border-color: orangered;
+    background-color:orangered;
+    padding: 2em;
+    border-radius: 2em;
+}
+.rugbynl {
+border: 2em;
+border-style: inset;
+border-color: orangered;
+}
+
+h3{
+    text-align: center;
+}
+pre{
+    height: auto;
+    width: 50%;
+}
+
+
+
+textarea{
+    size-adjust: 50%;
+}
+.button{
+    font-size: 2em;
+    font-family: arial;
+    color: orangered;
+    padding: 5em;
+    text-align: center;
+}
+.rugbynl:hover {
+background-color: red;
+color:blue;
+border-color: orange;
+text-transform: uppercase;
+}
+img{
+    width: 5%;
+}
+.pics{
+    width: 150%;
+    height: 150%;
+}
+.ervaring{
+    flex: auto;
+}
