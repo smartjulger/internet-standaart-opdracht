@@ -25,12 +25,6 @@ h1 {
     margin-top: 2em;
 }
 
-adress {
-    text-align: left;
-    font-style: normal;
-    border-style: inset;
-    border: 3px inset orangered;
-}
 
 .sub2 {
     text-align: center;
@@ -58,13 +52,7 @@ adress {
 
 h3 {
     text-align: center;
-}
-
-pre {
-    height: auto;
-    width: 50%;
-}
-
+} 
 .nl {
     width: fit-content;
 }
@@ -96,6 +84,9 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: orange;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
 }
 
 li {
@@ -117,10 +108,11 @@ li a:hover {
     background-color: orange;
     text-align: center;
     margin-left: 50%;
-    border: 2em;
-    width: 50%;
-    height: 50%;
+    
 }
-.club :hover{
-    background-color: red;
+.flex{
+    display: flex;
+    flex-direction: row;
+    width: 98vw;
+    height: 98vh;
 }
